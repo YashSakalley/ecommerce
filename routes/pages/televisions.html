@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisions</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        body h1 {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 1px 1px 11px 8px rgb(200, 197, 197);
+
+            display: flex;
+            align-items: center;
+        }
+
+        .box div {
+            margin: 20px;
+        }
+
+        span {
+            text-decoration: line-through;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .hightlight {
+            color: rgb(129, 165, 11);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Televisions</h1>
+    <a href="/">Back to home</a>
+    <div class="box">
+        <div>
+            <img src="data:image/jpeg;base64,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"
+                alt="product-image">
+        </div>
+        <div>
+            <div class="product-details">
+                <div class="hightlight"> <i> Best Seller </i> </div>
+                <div class="title">
+                    Sony Bravia W662f 108cm 43 inch Full Hd Led Smart TV
+                </div>
+                <div class="price">
+                    Rs. 45, 499 <span>Rs. 50, 000</span>
+                </div>
+                <div class="rating">
+                    Ratings: 4.1 / 5
+                    <br>
+                    78 Reviews
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
